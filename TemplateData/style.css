@@ -1,69 +1,8 @@
-@font-face {
-    font-family: 'CoFo Sans';
-    src: url('font/CoFoSans-Bold.eot');
-    src: local('font/CoFo Sans Bold'), local('CoFoSans-Bold'),
-        url('font/CoFoSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('font/CoFoSans-Bold.woff2') format('woff2'),
-        url('font/CoFoSans-Bold.woff') format('woff'),
-        url('font/CoFoSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: url('font/CoFoSans-Black.eot');
-    src: local('font/CoFo Sans Black'), local('CoFoSans-Black'),
-        url('font/CoFoSans-Black.eot?#iefix') format('embedded-opentype'),
-        url('font/CoFoSans-Black.woff2') format('woff2'),
-        url('font/CoFoSans-Black.woff') format('woff'),
-        url('font/CoFoSans-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: url('font/CoFoSans-Regular.eot');
-    src: local('CoFo Sans'), local('CoFoSans-Regular'),
-        url('font/CoFoSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('font/CoFoSans-Regular.woff2') format('woff2'),
-        url('font/CoFoSans-Regular.woff') format('woff'),
-        url('font/CoFoSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'CoFo Sans';
-    src: url('font/CoFoSans-Medium.eot');
-    src: local('CoFo Sans Medium'), local('CoFoSans-Medium'),
-        url('font/CoFoSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('font/CoFoSans-Medium.woff2') format('woff2'),
-        url('font/CoFoSans-Medium.woff') format('woff'),
-        url('font/CoFoSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'CoFo Robert';
-    src: url('font/CoFoRobert-RegularItalic.eot');
-    src: local('CoFo Robert Italic'), local('CoFoRobert-RegularItalic'),
-        url('font/CoFoRobert-RegularItalic.eot?#iefix') format('embedded-opentype'),
-        url('font/CoFoRobert-RegularItalic.woff2') format('woff2'),
-        url('font/CoFoRobert-RegularItalic.woff') format('woff'),
-        url('font/CoFoRobert-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
 body { padding: 0; margin: 0 }
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
-#moot-logo{ float: center; text-align: center;}
-#unity-canvas { background: #c599ff }
+#unity-canvas { background: #231F20 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
@@ -75,11 +14,3 @@ body { padding: 0; margin: 0 }
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
-
-a {
-    font-family: 'CoFo Sans'; font-weight: 300; font-style: normal; color: #7558af;
-}
-
-h1 {
-    font-family: 'CoFo Sans'; font-weight: 700; font-style: normal; color: #7558af;
-}
